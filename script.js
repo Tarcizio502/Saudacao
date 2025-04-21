@@ -17,17 +17,17 @@
 
     data.innerText = `${dia}/${mes}/${ano}`
 
-    if(hora >= 6 )  
-        {img.src = ' Bom-dia.jpg'
-        saudacao.innerHTML = 'Bom dia'} 
+    if(hora >= 18 )  
+        {img.src = ' Boa-noite.jpg'
+        saudacao.innerHTML = 'Boa noite'} 
         
      else if(hora >= 12 )  
         {img.src = 'Boa-tarde.jpg'
         saudacao.innerHTML = 'Boa tarde'} 
         
-     else if(hora >= 18 )  
-        {img.src = 'Boa-noite.jpg'
-        saudacao.innerHTML = 'Boa noite'} 
+     else if(hora >= 6 )  
+        {img.src = 'Bom-dia.jpg'
+        saudacao.innerHTML = 'Bom dia'} 
         
      else if(hora >= 0 )  
         {img.src = 'Madrugada.jpg'
