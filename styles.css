@@ -55,7 +55,8 @@
   
   .container img {
     width: 93%;  
-    margin-top: 30px;
+    height: 431px;  
+    margin-top: 15px;
     border-radius: 15px;
     margin-bottom: 63px;
     animation: zoomIn 2s ease-out;
