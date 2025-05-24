@@ -17,16 +17,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (hora >= 18) {
     img.src = " Boa-noite.jpg";
-    saudacao.innerHTML = "Boa noite";
+    saudacao.innerHTML =
+      "Boa noite, Que os anjos te protejam e que os sonhos te levem a bons lugares.";
   } else if (hora >= 12) {
     img.src = "Boa-tarde.jpg";
-    saudacao.innerHTML = "Boa tarde";
+    saudacao.innerHTML =
+      "Uma tarde cheia de fé, esperança e boas surpresas pra você!";
   } else if (hora >= 6) {
     img.src = "Bom-dia.jpg";
     saudacao.innerHTML = "Bom dia, que seu dia seja repleto de benção.";
   } else if (hora >= 0) {
     img.src = "Madrugada.jpg";
-    saudacao.innerHTML = "Boa madrugada";
+    saudacao.innerHTML =
+      "Boa madrugada, Que o silêncio da noite acalme o coração e fortaleça a mente.";
   }
 
   container.appendChild(img);
