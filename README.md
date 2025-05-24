@@ -25,4 +25,8 @@ CSS3
 JavaScript (puro)
 
 🎯 O objetivo deste projeto foi praticar manipulação do DOM, trabalhar com datas e horários e estilização condicional com CSS, fortalecendo minhas habilidades em desenvolvimento front-end.</p>
+<br> 
+<img src="https://github.com/user-attachments/assets/d5eccc60-b33d-4d0d-a66f-253959e509e2" />
+
 <br>
+<
