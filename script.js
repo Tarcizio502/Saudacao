@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   } else if (hora >= 12) {
     img.src = "Boa-tarde.jpg";
     saudacao.innerHTML =
-      "Uma tarde cheia de fé, esperança e boas surpresas pra você!";
+      "Uma tarde cheia de fé, esperança e boas surpresas pra você.";
   } else if (hora >= 6) {
     img.src = "Bom-dia.jpg";
     saudacao.innerHTML = "Bom dia, que seu dia seja repleto de benção.";
